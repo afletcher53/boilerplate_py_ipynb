@@ -7,6 +7,7 @@ import argparse
 from io import StringIO
 from pylint.lint import Run
 from pylint.reporters.text import TextReporter
+import subprocess
 
 # Argument parsing
 parser = argparse.ArgumentParser()
