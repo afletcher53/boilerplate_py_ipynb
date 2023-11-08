@@ -4,7 +4,7 @@
 cat > .git/hooks/pre-commit <<EOL
 #!/bin/sh
 black .
-nqba black .
+nbqa black .
 nbqa isort . --float-to-top
 nbqa mypy .
 python lint.py -p ../boilerplate_py_ipynb/
